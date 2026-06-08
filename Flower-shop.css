@@ -14,7 +14,7 @@ img {
 
 .navbar {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     width: 1140px;
     height: 71px;
@@ -38,37 +38,45 @@ img {
     position: relative;
     margin-left: 50px;
 }
+
 .left {
     display: flex;
     flex-direction: column;
     justify-content: end;
     width: 570px;
     height: 299px;
-    position:absolute;
+    position: absolute;
     left: 0%;
     bottom: 0%;
 
 
 }
+
 #black {
     color: black;
 }
 
 .orange {
     font-size: 65px;
-    color :orange
-    
+    color: orange
 }
+
 .fool {
+    width: 570px;
+    height: 355px;
+}
+
+.right {
     width: 570px;
     height: 355px;
     position: absolute;
     right: 0%;
     bottom: 0%;
 }
+
+
 .main-cont {
     display: flex;
-    justify-content: center;
 }
 
 .flower-des {
@@ -112,21 +120,23 @@ img {
     left: 126px;
     bottom: 0px;
     color: rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 .top-content {
     width: 1140px;
     height: 484.94px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 
-.cards{
-      width: 270px;
-      height: 484.94px;
-      position: relative;
+.cards {
+    width: 270px;
+    height: 484.94px;
+    position: relative;
 }
+
 .flower2 {
     width: 270px;
     height: 322.94px;
@@ -227,4 +237,291 @@ img {
 
 #ui {
     margin-left: 60px;
+}
+
+
+.container5 {
+    margin-left: 50px;
+}
+
+.top3 {
+    width: 1140px;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.latest-deals {
+    font-size: 50px;
+    color: #E95A08;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.indulge2 {
+    font-size: 22px;
+    font-weight: 400;
+    width: 888px;
+    height: 54px;
+    color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom3 {
+    width: 1140px;
+    height: 423.12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left3 {
+    width: 367px;
+    height: 423px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.top4 {
+    width: 367px;
+    height: 197px;
+    position: relative;
+}
+
+.flower3 {
+    width: 367px;
+    height: 197px;
+    border-radius: 14px;
+    z-index: -1;
+}
+
+.bottom4 {
+    width: 367px;
+    height: 197px;
+    position: relative;
+}
+
+.off {
+    height: 27px;
+    width: 270px;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.shop-now {
+    height: 12px;
+    width: 79px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right3 {
+    width: 753px;
+    height: 423.12px;
+    position: relative;
+}
+
+.flower4 {
+    height: 423.12px;
+    width: 753px;
+    border-radius: 22px;
+    position: absolute;
+    z-index: -1;
+}
+
+.off2 {
+    height: 50px;
+    width: 498px;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: bold;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.shop-now2 {
+    width: 138px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 28px;
+    text-decoration: underline;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container6 {
+    width: 1440px;
+    height: 533px;
+    position: relative;
+
+}
+
+.flower5 {
+    width: 1440px;
+    height: 533px;
+    position: absolute;
+    z-index: -1;
+}
+
+.join {
+    width: 586px;
+    height: 68PX;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: bold;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.email {
+    height: 50px;
+    width: 644px;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    padding: 8px 20px 8px 20px;
+}
+
+.subscribe {
+    height: 50px;
+    width: 150px;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    position: absolute;
+    top: 60%;
+    left: 72.5%;
+    transform: translate(-50%, -50%);
+}
+
+.footer {
+    width: 1440px;
+    height: 348px;
+    position: relative;
+}
+
+.footer-container {
+    width: 1120px;
+    height: 248px;
+    margin: 50px 160px 50px 160px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.left-footer {
+    width: 359px;
+    height: 179px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-footer {
+    width: 135px;
+    height: 82px;
+}
+
+.indulge3 {
+    height: 81px;
+    width: 359px;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.left-center-footer {
+    height: 248px;
+    width: 85px;
+    position: absolute;
+    left: 469.67px;
+    top: 0px;
+    gap: 32px;
+
+}
+
+#ul-footer1 {
+    list-style: none;
+}
+
+#li-footer {
+    margin: 20px;
+}
+
+
+.right-center-footer {
+    width: 128px;
+    height: 248px;
+    position: absolute;
+    left: 665.33px;
+    top: 0px;
+}
+
+
+#ul-footer2 {
+    list-style: none;
+}
+
+.right-footer {
+    width: 216px;
+    height: 36px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+
+#brand-logo {
+    height: 36px;
+    width: 36px;
+}
+
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    border-radius: 14px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.overlay2{
+    position: absolute;
+    inset: 0;
+    border-radius: 22px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.overlay3 {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
 }
